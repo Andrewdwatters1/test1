@@ -1,1 +1,45 @@
-https://github.com/Andrewdwatters1/test1.git
+What does cd do?
+
+
+
+What does cd stand for?
+
+
+
+What does mkdir do?
+
+
+
+What is the difference between 'rm' and 'rm -rf'?
+
+
+
+What does the -m stand for in git commit -m?
+
+
+
+What follows the -m?
+
+
+
+What is the difference between 'git commit' and 'git push'?
+
+
+
+What does 'git pull do'?
+
+
+
+What is the difference between 'ls', 'ls -a', and 'ls -l'?
+
+
+
+What does touch do?
+
+
+
+What does 'cat filename.txt' do?
+
+
+
+What does man do?
