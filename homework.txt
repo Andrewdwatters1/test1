@@ -1,45 +1,49 @@
 What does cd do?
 
-
+changes directory to the referenced folder
 
 What does cd stand for?
 
-
+change/current directory
 
 What does mkdir do?
 
-
+creates a new directory/folder
 
 What is the difference between 'rm' and 'rm -rf'?
 
-
+rm removes a file, rm -rf deletes the directory and every directory and file in it
 
 What does the -m stand for in git commit -m?
 
-
+message
 
 What follows the -m?
 
-
+the commit message
 
 What is the difference between 'git commit' and 'git push'?
 
-
+git commit commits the file to the local repository, git push moves it to the remote repository
 
 What does 'git pull do'?
 
-
+git pull takes a file from the remote repository and "pulls" it into the workspace
 
 What is the difference between 'ls', 'ls -a', and 'ls -l'?
 
-
+ls lists all directories
+ls -a lists all directories including .files
+ls -l lists the long name of all directories
 
 What does touch do?
 
-
+touch moves into a file, if no file exists it creates a temp file
 
 What does 'cat filename.txt' do?
 
-
+prints the contents of filename.txt to the console
 
 What does man do?
+
+references the manual for a given command
