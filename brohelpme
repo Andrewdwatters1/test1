@@ -1,0 +1,14 @@
+/* submitted assesment, grader's response was "It all looks good except for problem six isn't hitting all the requirements. 
+There is a second task in the instructions to do with that problem. */
+
+/* #6 Create a new variable called notHakeem. Using the previously created myName variable, 
+test that your name DOES NOT equal the string 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, 
+test against 'Karl Malone' */
+
+
+var notHakeem = myName !== 'Hakeem Olajuwon'; 
+if (notHakeem === false) {
+  notHakeem = myName !== 'Karl Malone'
+}
+
+// having a hard time telling by the console output if I did this correctly... plz hlp
