@@ -12,3 +12,50 @@ if (notHakeem === false) {
 }
 
 // having a hard time telling by the console output if I did this correctly... plz hlp
+
+// is this supposed to be inside of a function? (I'm going to assume that it is
+// and that your argument is myName and you need to return the variable notHakeemOrKarl
+
+// so right now you have notHakeem which is great
+var notHakeem = myName !== 'Hakeem Olajuwon';
+
+// but now you only want to check if you're name is not 'Karl Malone' if your name IS 'Hakeem Olajuwon'
+// so instead of notHakeem === false, use
+if (name === 'Hakeem Olajuwon') {
+  notHakeem = myName !== 'Karl Malone'
+}
+return notHakeem;
+
+// in your method, you are testing against 'Karl Malone' if the name is 'adsf' or 'Cody Watters' or "Ojar',
+// really anything OTHER than 'Hakeem Olajuwon'
+// you want to only test against karl if the name IS EXACTLY 'Hakeem Olajuwon'
+
+// basically you did this
+if (myName !== 'Hakeem Olajuwon) {
+  if (myName !== 'Karl Malone') {
+    return true;
+  } else {
+    return false
+  }
+}
+return true;
+
+// and you want this
+
+if (myName !== 'Hakeem Olajuwon) {
+  return true;
+}
+
+if (myName === 'Hakeem Olajuwon') {
+  if (myName === 'Karl Malone') {
+    return true;
+  } else {
+    return false;
+  }
+} else {
+  return false;
+}
+
+// or, shortened
+return ( (myName !== 'Hakeen Olajuwon') || (myName === 'HakeemOlajuwon && myname !== 'Karl Malone') );
+
